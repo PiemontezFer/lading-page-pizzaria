@@ -90,9 +90,9 @@ p {
     background-color: var(--color-light);
     border-radius: .5rem;
     box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
-    margin: 1.5rem;
-    height: 26rem;
-    width: 26rem;
+    margin: 2rem;
+    height: 28rem;
+    width: 28rem;
     text-align: left;
 }
 
@@ -105,7 +105,7 @@ p {
 
 .menu-list h3,
 .menu-list p {
-    padding: 1rem 1.25rem 0;
+    padding: 1rem 1.5rem 0;
 }
 
 #about {
