@@ -133,6 +133,23 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 1440px) {
+    .menu-list > li {
+        display: inline-block;
+        background-color: var(--color-light);
+        border-radius: .5rem;
+        box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+        margin: 1.5rem;
+        height: 24rem;
+        width: 24rem;
+        text-align: left;
+    }
+    .menu-list h3,
+    .menu-list p {
+        padding: 1rem 0;
+    }
+}
+
 @media screen and (max-width: 480px) {
     header {
         display: none;
