@@ -90,7 +90,7 @@ p {
     background-color: var(--color-light);
     border-radius: .5rem;
     box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
-    margin: 2rem;
+    margin: 1.5rem;
     height: 28rem;
     width: 28rem;
     text-align: left;
@@ -105,7 +105,7 @@ p {
 
 .menu-list h3,
 .menu-list p {
-    padding: 1rem 1.5rem 0;
+    padding: 1rem 1.25rem 0;
 }
 
 #about {
@@ -131,4 +131,79 @@ footer {
     color: var(--color-white);
     padding: 2rem;
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: none;
+    }
+
+    section:not(#home) {
+        padding: 4rem 0; 
+        text-align: center;
+    }
+    
+
+    .hero {
+        padding: 15rem 0;
+    }
+
+    .menu-list > li {
+        display: inline-block;
+        background-color: var(--color-light);
+        border-radius: .5rem;
+        box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+        margin: 2rem auto;
+        height: 20rem;
+        width: 20rem;
+        text-align: left;
+    }
+    
+    .menu-list img {
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    .menu-list h3,
+    .menu-list p {
+        padding: 1rem 1rem 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .hero {
+        padding: 15rem 0;
+    }
+
+    .menu-list > li {
+        display: inline-block;
+        background-color: var(--color-light);
+        border-radius: .5rem;
+        box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+        margin: 2rem auto;
+        height: 18rem;
+        width: 18rem;
+        text-align: left;
+    }
+    
+    .menu-list img {
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    .menu-list h3,
+    .menu-list p {
+        padding: 1rem 1rem 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hero {
+        padding: 12rem 0;
+    }
 }
